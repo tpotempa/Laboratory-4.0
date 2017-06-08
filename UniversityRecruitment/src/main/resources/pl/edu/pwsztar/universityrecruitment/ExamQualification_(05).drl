@@ -1,0 +1,267 @@
+package pl.edu.pwsztar.universityrecruitment;
+ 
+rule "Qualification #1-05"
+ruleflow-group "admission-05"
+salience 100
+activation-group "group-1"
+when
+    $uc : UniversityCandidate(study.equals("IN"), examResult >= 100)
+then
+    modify ($uc) {
+        setAdmission(true),
+        setQualificationType("Exam qualification."),
+        appendLogger("Qualification #1 fired!")
+    }
+end
+
+rule "Qualification #2-05"
+ruleflow-group "admission-05"
+salience 100
+activation-group "group-1"
+when
+    $uc : UniversityCandidate(study.equals("EK"), examResult >= 90)
+then
+    modify ($uc) {
+        setAdmission(true),
+        setQualificationType("Exam qualification."),
+        appendLogger("Qualification #2 fired!")
+    }
+end
+
+rule "Qualification #3-05"
+ruleflow-group "admission-05"
+salience 100
+activation-group "group-1"
+when
+    $uc : UniversityCandidate(study.equals("FA"), examResult >= 10)
+then
+    modify ($uc) {
+        setAdmission(true),
+        setQualificationType("Exam qualification."),
+        appendLogger("Qualification #3 fired!")
+    }
+end
+
+rule "Qualification #4-05"
+ruleflow-group "admission-05"
+salience 100
+activation-group "group-1"
+when
+    $uc : UniversityCandidate(study.equals("ET"), examResult >= 80)
+then
+    modify ($uc) {
+        setAdmission(true),
+        setQualificationType("Exam qualification."),
+        appendLogger("Qualification #4 fired!")
+    }
+end
+
+rule "Qualification #5-05"
+ruleflow-group "admission-05"
+salience 100
+activation-group "group-1"
+when
+    $uc : UniversityCandidate(study.equals("AD"), examResult >= 110)
+then
+    modify ($uc) {
+        setAdmission(true),
+        setQualificationType("Exam qualification."),
+        appendLogger("Qualification #5 fired!")
+    }
+end
+
+rule "Qualification #6-05"
+ruleflow-group "admission-05"
+salience 100
+activation-group "group-1"
+when
+    $uc : UniversityCandidate(study.equals("FI"), examResult >= 70)
+then
+    modify ($uc) {
+        setAdmission(true),
+        setQualificationType("Exam qualification."),
+        appendLogger("Qualification #6 fired!")
+    }
+end
+
+rule "Qualification #7-05"
+ruleflow-group "admission-05"
+salience 100
+activation-group "group-1"
+when
+    $uc : UniversityCandidate(study.equals("GR"), examResult >= 140)
+then
+    modify ($uc) {
+        setAdmission(true),
+        setQualificationType("Exam qualification."),
+        appendLogger("Qualification #7 fired!")
+    }
+end
+
+rule "Qualification #8-05"
+ruleflow-group "admission-05"
+salience 100
+activation-group "group-1"
+when
+    $uc : UniversityCandidate(study.equals("WZ"), examResult >= 60)
+then
+    modify ($uc) {
+        setAdmission(true),
+        setQualificationType("Exam qualification."),
+        appendLogger("Qualification #8 fired!")
+    }
+end
+
+rule "Qualification #9-05"
+ruleflow-group "admission-05"
+salience 100
+activation-group "group-1"
+when
+    $uc : UniversityCandidate(study.equals("PI"), examResult >= 100)
+then
+    modify ($uc) {
+        setAdmission(true),
+        setQualificationType("Exam qualification."),
+        appendLogger("Qualification #9 fired!")
+    }
+end
+
+rule "Qualification #10-05"
+ruleflow-group "admission-05"
+salience 100
+activation-group "group-1"
+when
+    $uc : UniversityCandidate(study.equals("MA"), examResult >= 50)
+then
+    modify ($uc) {
+        setAdmission(true),
+        setQualificationType("Exam qualification."),
+        appendLogger("Qualification #10 fired!")
+    }
+end
+
+rule "Qualification #11-05"
+ruleflow-group "admission-05"
+salience 100
+activation-group "group-1"
+when
+    $uc : UniversityCandidate(study.equals("CH"), examResult >= 40)
+then
+    modify ($uc) {
+        setAdmission(true),
+        setQualificationType("Exam qualification."),
+        appendLogger("Qualification #11 fired!")
+    }
+end
+
+rule "Qualification #12-05"
+ruleflow-group "admission-05"
+salience 100
+activation-group "group-1"
+when
+    $uc : UniversityCandidate(study.equals("OS"), examResult >= 30)
+then
+    modify ($uc) {
+        setAdmission(true),
+        setQualificationType("Exam qualification."),
+        appendLogger("Qualification #12 fired!")
+    }
+end
+
+rule "Qualification #13-05"
+ruleflow-group "admission-05"
+salience 100
+activation-group "group-1"
+when
+    $uc : UniversityCandidate(study.equals("FG"), examResult >= 50)
+then
+    modify ($uc) {
+        setAdmission(true),
+        setQualificationType("Exam qualification."),
+        appendLogger("Qualification #13 fired!")
+    }
+end
+
+rule "Qualification #14-05"
+ruleflow-group "admission-05"
+salience 100
+activation-group "group-1"
+when
+    $uc : UniversityCandidate(study.equals("FR"), examResult >= 45)
+then
+    modify ($uc) {
+        setAdmission(true),
+        setQualificationType("Exam qualification."),
+        appendLogger("Qualification #14 fired!")
+    }
+end
+
+rule "Qualification #15-05"
+ruleflow-group "admission-05"
+salience 100
+activation-group "group-1"
+when
+    $uc : UniversityCandidate(study.equals("FP"), examResult >= 60)
+then
+    modify ($uc) {
+        setAdmission(true),
+        setQualificationType("Exam qualification."),
+        appendLogger("Qualification #15 fired!")
+    }
+end
+
+rule "Qualification #16-05"
+ruleflow-group "admission-05"
+salience 100
+activation-group "group-1"
+when
+    $uc : UniversityCandidate(study.equals("IM"), examResult >= 50)
+then
+    modify ($uc) {
+        setAdmission(true),
+        setQualificationType("Exam qualification."),
+        appendLogger("Qualification #16 fired!")
+    }
+end
+
+rule "Qualification #17-05"
+ruleflow-group "admission-05"
+salience 100
+activation-group "group-1"
+when
+    $uc : UniversityCandidate(study.equals("EN"), examResult >= 80)
+then
+    modify ($uc) {
+        setAdmission(true),
+        setQualificationType("Exam qualification."),
+        appendLogger("Qualification #17 fired!")
+    }
+end
+
+rule "Qualification #18-05"
+ruleflow-group "admission-05"
+salience 100
+activation-group "group-1"
+when
+    $uc : UniversityCandidate(study.equals("WF"), examResult >= 10)
+then
+    modify ($uc) {
+        setAdmission(true),
+        setQualificationType("Exam qualification."),
+        appendLogger("Qualification #18 fired!")
+    }
+end
+
+rule "Qualification #19-05"
+ruleflow-group "admission-05"
+salience 100
+activation-group "group-1"
+when
+    $uc : UniversityCandidate(study.equals("PJ"), examResult >= 60)
+then
+    modify ($uc) {
+        setAdmission(true),
+        setQualificationType("Exam qualification."),
+        appendLogger("Qualification #19 fired!")
+    }
+end

@@ -1,0 +1,12 @@
+package pl.edu.pwsztar.universityrecruitment;
+
+import java.lang.Number;
+
+rule "Qualification_(00)"
+	dialect "java"
+	ruleflow-group "admission-00"
+	when
+		uc : UniversityCandidate( examResult >= 100 )
+	then
+		uc.setAdmission( true );
+end

@@ -1,0 +1,21 @@
+
+<form id="1987829534">
+<property name="name" value="UniversityRecruitment.UniversityAdmission-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name=":decorator_0" type="HTMLLabel" id="2021845607">
+<property name="fieldRequired" value="false"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;h1&gt;&lt;strong&gt;University e-Admission System&lt;/strong&gt;&lt;/h1&gt;
+quot;quot;dequot;,quot;&lt;h1&gt;&lt;strong&gt;University e-Admission System&lt;/strong&gt;&lt;/h1&gt;
+quot;quot;enquot;,quot;&lt;h1&gt;&lt;strong&gt;University e-Admission System&lt;/strong&gt;&lt;/h1&gt;
+quot;quot;esquot;,quot;&lt;h1&gt;&lt;strong&gt;University e-Admission System&lt;/strong&gt;&lt;/h1&gt;
+quot;quot;frquot;,quot;&lt;h1&gt;&lt;strong&gt;University e-Admission System&lt;/strong&gt;&lt;/h1&gt;
+quot;quot;jaquot;,quot;&lt;h1&gt;&lt;strong&gt;University e-Admission System&lt;/strong&gt;&lt;/h1&gt;
+quot;quot;ptquot;,quot;&lt;h1&gt;&lt;strong&gt;University e-Admission System&lt;/strong&gt;&lt;/h1&gt;
+quot;quot;zhquot;,quot;&lt;h1&gt;&lt;strong&gt;University e-Admission System&lt;/strong&gt;&lt;/h1&gt;
+quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
+</field>
+<dataHolder inputId="" name="#E9E371" type="dataModelerEntry" outId="candidate" value="pl.edu.pwsztar.universityrecruitment.UniversityCandidate" id="candidate"/>
+</form>

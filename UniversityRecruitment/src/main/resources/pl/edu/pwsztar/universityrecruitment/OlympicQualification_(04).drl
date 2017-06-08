@@ -1,0 +1,13 @@
+package pl.edu.pwsztar.universityrecruitment;
+
+rule "Olympic qualification 04"
+ruleflow-group "admission-04"
+salience 200
+activation-group "group-1"
+when
+    $uc : UniversityCandidate(Boolean.TRUE.equals(olympic))
+then
+    $uc.setAdmission(true);
+    $uc.setQualificationType("Olympic qualification.");
+    $uc.appendLogger("Olympic qualification fired!");
+end

@@ -1,0 +1,210 @@
+package pl.edu.pwsztar.universityrecruitment;
+ 
+rule "Qualification #1-03"
+ruleflow-group "admission-03"
+salience 100
+when
+    $uc : UniversityCandidate(study.equals("IN"), examResult >= 100)
+then
+    $uc.setAdmission(true);
+    $uc.setQualificationType("Exam qualification!");
+    $uc.appendLogger("Qualification #1 fired!");
+end
+
+rule "Qualification #2-03"
+ruleflow-group "admission-03"
+salience 100
+when
+    $uc : UniversityCandidate(study.equals("EK"), examResult >= 90)
+then
+    $uc.setAdmission(true);
+    $uc.setQualificationType("Exam qualification.");
+    $uc.appendLogger("Qualification #2 fired!");
+end
+
+rule "Qualification #3-03"
+ruleflow-group "admission-03"
+salience 100
+when
+    $uc : UniversityCandidate(study.equals("FA"), examResult >= 10)
+then
+    $uc.setAdmission(true);
+    $uc.setQualificationType("Exam qualification.");
+    $uc.appendLogger("Qualification #3 fired!");
+end
+
+rule "Qualification #4-03"
+ruleflow-group "admission-03"
+salience 100
+when
+    $uc : UniversityCandidate(study.equals("ET"), examResult >= 80)
+then
+    $uc.setAdmission(true);
+    $uc.setQualificationType("Exam qualification.");
+    $uc.appendLogger("Qualification #4 fired!");
+end
+
+rule "Qualification #5-03"
+ruleflow-group "admission-03"
+salience 100
+when
+    $uc : UniversityCandidate(study.equals("AD"), examResult >= 110)
+then
+    $uc.setAdmission(true);
+    $uc.setQualificationType("Exam qualification.");
+    $uc.appendLogger("Qualification #5 fired!");
+end
+
+rule "Qualification #6-03"
+ruleflow-group "admission-03"
+salience 100
+when
+    $uc : UniversityCandidate(study.equals("FI"), examResult >= 70)
+then
+    $uc.setAdmission(true);
+    $uc.setQualificationType("Exam qualification.");
+    $uc.appendLogger("Qualification #6 fired!");
+end
+
+rule "Qualification #7-03"
+ruleflow-group "admission-03"
+salience 100
+when
+    $uc : UniversityCandidate(study.equals("GR"), examResult >= 140)
+then
+    $uc.setAdmission(true);
+    $uc.setQualificationType("Exam qualification.");
+    $uc.appendLogger("Qualification #7 fired!");
+end
+
+rule "Qualification #8-03"
+ruleflow-group "admission-03"
+salience 100
+when
+    $uc : UniversityCandidate(study.equals("WZ"), examResult >= 60)
+then
+    $uc.setAdmission(true);
+    $uc.setQualificationType("Exam qualification.");
+    $uc.appendLogger("Qualification #8 fired!");
+end
+
+rule "Qualification #9-03"
+ruleflow-group "admission-03"
+salience 100
+when
+    $uc : UniversityCandidate(study.equals("PI"), examResult >= 100)
+then
+    $uc.setAdmission(true);
+    $uc.setQualificationType("Exam qualification.");
+    $uc.appendLogger("Qualification # fired!");
+end
+
+rule "Qualification #10-03"
+ruleflow-group "admission-03"
+salience 100
+when
+    $uc : UniversityCandidate(study.equals("MA"), examResult >= 50)
+then
+    $uc.setAdmission(true);
+    $uc.setQualificationType("Exam qualification.");
+    $uc.appendLogger("Qualification #10 fired!");
+end
+
+rule "Qualification #11-03"
+ruleflow-group "admission-03"
+salience 100
+when
+    $uc : UniversityCandidate(study.equals("CH"), examResult >= 40)
+then
+    $uc.setAdmission(true);
+    $uc.setQualificationType("Exam qualification.");
+    $uc.appendLogger("Qualification #11 fired!");
+end
+
+rule "Qualification #12-03"
+ruleflow-group "admission-03"
+salience 100
+when
+    $uc : UniversityCandidate(study.equals("OS"), examResult >= 30)
+then
+    $uc.setAdmission(true);
+    $uc.setQualificationType("Exam qualification.");
+    $uc.appendLogger("Qualification #12 fired!");
+end
+
+rule "Qualification #13-03"
+ruleflow-group "admission-03"
+salience 100
+when
+    $uc : UniversityCandidate(study.equals("FG"), examResult >= 50)
+then
+    $uc.setAdmission(true);
+    $uc.setQualificationType("Exam qualification.");
+    $uc.appendLogger("Qualification #13 fired!");
+end
+
+rule "Qualification #14-03"
+ruleflow-group "admission-03"
+salience 100
+when
+    $uc : UniversityCandidate(study.equals("FR"), examResult >= 45)
+then
+    $uc.setAdmission(true);
+    $uc.setQualificationType("Exam qualification.");
+    $uc.appendLogger("Qualification #14 fired!");
+end
+
+rule "Qualification #15-03"
+ruleflow-group "admission-03"
+salience 100
+when
+    $uc : UniversityCandidate(study.equals("FP"), examResult >= 60)
+then
+    $uc.setAdmission(true);
+    $uc.setQualificationType("Exam qualification.");
+    $uc.appendLogger("Qualification #15 fired!");
+end
+
+rule "Qualification #16-03"
+ruleflow-group "admission-03"
+salience 100
+when
+    $uc : UniversityCandidate(study.equals("IM"), examResult >= 50)
+then
+    $uc.setAdmission(true);
+    $uc.setQualificationType("Exam qualification.");
+    $uc.appendLogger("Qualification #16 fired!");
+end
+
+rule "Qualification #17-03"
+ruleflow-group "admission-03"
+salience 100
+when
+    $uc : UniversityCandidate(study.equals("EN"), examResult >= 80)
+then
+    $uc.setAdmission(true);
+    $uc.setQualificationType("Exam qualification.");
+    $uc.appendLogger("Qualification #17 fired!");
+end
+
+rule "Qualification #18-03"
+ruleflow-group "admission-03"
+salience 100
+when
+    $uc : UniversityCandidate(study.equals("WF"), examResult >= 10)
+then
+    $uc.setAdmission(true);
+    $uc.setQualificationType("Exam qualification.");
+    $uc.appendLogger("Qualification #18 fired!");
+end
+
+rule "Qualification #19-03"
+ruleflow-group "admission-03"
+salience 100
+when
+    $uc : UniversityCandidate(study.equals("PJ"), examResult >= 60)
+then
+    $uc.setAdmission(true);
+    $uc.setQualificationType("Exam qualification.");
+    $uc.appendLogger("Qualification #19 fired!");
+end
